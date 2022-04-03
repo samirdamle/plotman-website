@@ -32,35 +32,36 @@ const Footer = class extends React.Component {
                                         </li>
                                         <li>
                                             <Link className="navbar-item" to="/products">
-                                                Products
+                                                Get Started
                                             </Link>
-                                        </li>
-                                        <li>
-                                            <Link className="navbar-item" to="/contact/examples">
-                                                Form Examples
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <a className="navbar-item" href="/admin/" target="_blank" rel="noopener noreferrer">
-                                                Admin
-                                            </a>
                                         </li>
                                     </ul>
+                                    <br />
                                 </section>
                             </div>
                             <div className="column is-4">
                                 <section>
                                     <ul className="menu-list">
                                         <li>
-                                            <Link className="navbar-item" to="/blog">
-                                                Latest Stories
+                                            <Link className="navbar-item" to="/contact/examples">
+                                                Examples
                                             </Link>
                                         </li>
                                         <li>
                                             <Link className="navbar-item" to="/contact">
-                                                Contact
+                                                Documentation
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link className="navbar-item" to="/blog">
+                                                Blog
+                                            </Link>
+                                        </li>
+                                        {/* <li>
+                                            <a className="navbar-item" href="/admin/" target="_blank" rel="noopener noreferrer">
+                                                Admin
+                                            </a>
+                                        </li> */}
                                     </ul>
                                 </section>
                             </div>
