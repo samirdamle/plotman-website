@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+// import logo from '../img/logo.svg'
+import plotmanLogo from '../img/plotman-logo-sm.png'
 
 const Navbar = class extends React.Component {
     constructor(props) {
@@ -38,7 +39,7 @@ const Navbar = class extends React.Component {
                 <div className="container">
                     <div className="navbar-brand">
                         <Link to="/" className="navbar-item" title="Logo">
-                            {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
+                            <img src={plotmanLogo} alt="Plotman logo" style={{ width: '28px', height: '28px', marginRight: '20px' }} />
                             Plotman
                         </Link>
                         {/* Hamburger menu */}
@@ -60,16 +61,16 @@ const Navbar = class extends React.Component {
                                 About
                             </Link>
                             <Link className="navbar-item" to="/products">
-                                Products
+                                Get Started
+                            </Link>
+                            <Link className="navbar-item" to="/contact/examples">
+                                Examples
+                            </Link>
+                            <Link className="navbar-item" to="/contact">
+                                Documentation
                             </Link>
                             <Link className="navbar-item" to="/blog">
                                 Blog
-                            </Link>
-                            <Link className="navbar-item" to="/contact">
-                                Contact
-                            </Link>
-                            <Link className="navbar-item" to="/contact/examples">
-                                Form Examples
                             </Link>
                         </div>
                         <div className="navbar-end has-text-centered">
